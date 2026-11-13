@@ -30,9 +30,9 @@ def _t2n(x):
     return x.detach().cpu().numpy()
 
 episode_rewards = 0
-ego_run_dir = CURRENT_WORK_PATH + "/../scripts/runs/2024-05-15_16-09-20_Control_heading_ppo_v1/episode_149"
+ego_run_dir = CURRENT_WORK_PATH + "/../scripts/runs/2026-11-10_19-52-40_Control_control_F16_ppo_v1/episode_2499"
 device = "cuda:0"
-config = "heading"
+config = "control"
 
 env = ControlEnv(num_envs=1, config=config, model='F16', random_seed=5, device=device)
 args = Args()

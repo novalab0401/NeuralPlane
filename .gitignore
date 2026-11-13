@@ -3,3 +3,9 @@ runs
 __pycache__
 .vscode
 envs/jsbsim
+renders/tracks
+renders/result/pitch_dem.npy
+renders/result/roll_dem.npy
+renders/result/target_pitch.npy
+renders/result/yaw_rate.npy
+renders/result/yaw_rate_dem.npy
